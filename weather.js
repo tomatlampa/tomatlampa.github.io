@@ -11,14 +11,16 @@
                     '<div class="weather-condition" id="weather-condition"></div>' +
                     '</div>');
 		
-        };
-
-	$(function() {
+		$(function() {
 
 		$(".weather-temp").css({"font-weight": "1700"});
 
 	});
 
+		
+        };
+
+	
         this.getWeatherData = function (position) {
             var lat = position.coords.latitude;
             var lon = position.coords.longitude;
