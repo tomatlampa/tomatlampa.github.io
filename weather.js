@@ -15,7 +15,7 @@
 
 	$(function() {
 
-		$(".weather-temp").css({"font-weight": "700"});
+		$(".weather-temp").css({"font-weight": "1700"});
 
 	});
 
