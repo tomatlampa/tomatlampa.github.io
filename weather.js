@@ -7,17 +7,9 @@
 
         this.create = function () {
             html = $('<div class="weather-widget">' +
-                    '<div class="weather-temp" id="weather-temp"></div>' +
-                    '<div class="weather-condition" id="weather-condition"></div>' +
-                    '</div>');
-		
-		$(function() {
-
-		$(".weather-temp").css({"font-weight": "1700"});
-
-	});
-
-		
+                    '<div class="weather-temp" id="weather-temp"></h1></div>' +
+                    '<div class="weather-condition" id="weather-condition"></h1></div>' +
+                    '</div>');		
         };
 
 	
