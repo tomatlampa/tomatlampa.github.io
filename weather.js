@@ -31,7 +31,7 @@
             var condition = data2.condition.text;// Обстановка
 				console.log("Погода", "Обстановка: " + condition)
 
-            $('#weather-temp').text(temp + '°');
+            $('#weather-temp').text(temp + '°').style.fontSize = "24px";
             $('#weather-condition').text(condition).toggleClass('long-text', condition.length > 10);
         }
 
