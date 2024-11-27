@@ -34,7 +34,8 @@
             $('#weather-temp').text(temp + '°');
             $('#weather-condition').text(condition).toggleClass('long-text', condition.length > 10);
         }
-
+        temp.style.fontsize= "24px";
+	condition.style.fontsize= "24px";
         function processError() {
             console.log('Error retrieving weather data');
         }
