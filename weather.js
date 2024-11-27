@@ -109,8 +109,8 @@
         $('.weather-widget').hide();
 		var width_element = document.querySelector('.head__time');
 		console.log(width_element.offsetWidth);
-		$('.weather-widget').css('width', width_element.offsetWidth + 'px');
-		$('.head__time').css('width', width_element.offsetWidth + 'px');
+		$('.weather-widget').css('width', width_element.offsetWidth +20 + 'px');
+		$('.head__time').css('width', width_element.offsetWidth +20 + 'px');
     },5000)
 	});
 	
