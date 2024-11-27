@@ -33,7 +33,7 @@
 
             $('#weather-temp').text(temp + '°');
             $('#weather-condition').text(condition).toggleClass('long-text', condition.length > 10);
-            ${(temp) =>temp.size === 'medium' && css};
+
         }
         
         function processError() {
