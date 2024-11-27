@@ -7,8 +7,8 @@
 
         this.create = function () {
             html = $('<div class="weather-widget">' +
-                    '<div class="weather-temp" id="weather-temp"> </div>' +
-                    '<div class="weather-condition" id="weather-condition"></div>' +
+                    '<div class="weather-temp" id="weather-temp"></b></div>' +
+                    '<div class="weather-condition" id="weather-condition"></b></div>' +
                     '</div>');
         };
 
