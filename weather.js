@@ -100,7 +100,7 @@
         }
 
         // Устанавливаем интервал для переключения между временем и погодой каждые 10 секунд
-        setInterval(toggleDisplay, 10000);
+        setInterval(toggleDisplay, 5000);
 
         // Получаем начальные данные о погоде
         weatherInterface.getWeather();
