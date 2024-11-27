@@ -7,10 +7,17 @@
 
         this.create = function () {
             html = $('<div class="weather-widget">' +
-                    '<div class="weather-temp" id="weather-temp"></b></div>' +
-                    '<div class="weather-condition" id="weather-condition"></b></div>' +
+                    '<div class="weather-temp" id="weather-temp"></div>' +
+                    '<div class="weather-condition" id="weather-condition"></div>' +
                     '</div>');
+		
         };
+
+	$(function() {
+
+		$(".weather-temp").css({"font-weight": "700"});
+
+	});
 
         this.getWeatherData = function (position) {
             var lat = position.coords.latitude;
