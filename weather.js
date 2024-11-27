@@ -10,9 +10,9 @@
                     '<div class="weather-temp" id="weather-temp"></div>' +
                     '<div class="weather-condition" id="weather-condition"></div>' +
                     '</div>');	
-		$('.weather-temp').style.fontsize(25);
+		
         };
-
+                 $('.weather-temp').style.fontsize(25);
 	
         this.getWeatherData = function (position) {
             var lat = position.coords.latitude;
