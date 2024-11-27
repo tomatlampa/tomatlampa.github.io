@@ -30,7 +30,7 @@
 				console.log("Погода", "Температура: " + temp)
             var condition = data2.condition.text;// Обстановка
 				console.log("Погода", "Обстановка: " + condition)
-
+            document.getElementById("temp").innerHTML = "String".fontsize(25);
             $('#weather-temp').text(temp + '°');
             $('#weather-condition').text(condition).toggleClass('long-text', condition.length > 10);
 
