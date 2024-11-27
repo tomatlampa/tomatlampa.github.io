@@ -12,7 +12,6 @@
                     '</div>');	
 		
         };
-                 $('weather-temp').style.fontsize='25px';
 	
         this.getWeatherData = function (position) {
             var lat = position.coords.latitude;
